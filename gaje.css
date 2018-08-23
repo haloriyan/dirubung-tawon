@@ -1,0 +1,29 @@
+body {
+	background: url(gaje.png);
+	background-size: cover;
+}
+.enemy {
+	width: 10px;
+	height: 10px;
+	border-radius: 90px;
+	background-color: #444;
+	position: absolute;
+	top: 0px;left: 0px;
+	transition: 0.4s;
+}
+#my {
+	border-radius: 0px;
+	border-top-left-radius: 90px;
+	border-top-right-radius: 90px;
+}
+.enemy:nth-child(2) { background-color: red; }
+/*
+.enemy:nth-child(2),.enemy:nth-child(10) { background-color: red; }
+.enemy:nth-child(3) { background-color: yellow; }
+.enemy:nth-child(4) { background-color: green; }
+.enemy:nth-child(5) { background-color: blue; }
+.enemy:nth-child(6) { background-color: pink; }
+.enemy:nth-child(7) { background-color: purple; }
+.enemy:nth-child(8) { background-color: cyan; }
+.enemy:nth-child(9) { background-color: orange; }
+*/
